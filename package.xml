@@ -1,18 +1,20 @@
 <?xml version="1.0"?>
 <package>
     <name>Clockworkgeek_DashboardReviews</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
     <extends/>
     <summary>Show the newest, pending product reviews on the admin dashboard.</summary>
     <description>This extension allows you to quickly see if any reviews are waiting to be approved without navigating the menus.</description>
-    <notes>Tested with Magento 1.3 &amp; 1.4. Considered stable.</notes>
+    <notes>Tested with Magento 1.3 &amp; 1.4. Considered stable.
+
+--1.0.1 - Bug fix. Could not include required file when compilation was enabled.</notes>
     <authors><author><name>Clockworkgeek</name><user>auto-converted</user><email>daniel@clockworkgeek.com</email></author></authors>
-    <date>2010-06-04</date>
-    <time>13:51:16</time>
-    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="dashboardreviews.xml" hash="b967cebe14913211d0261fe076909fbd"/></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Clockworkgeek"><dir name="DashboardReviews"><dir name="Block"><file name="Grid.php" hash="c54f2fde1e446141320b93a7c3500795"/><file name="Tab.php" hash="46a11ff49eb35366693c8f5a61e567e9"/></dir><dir name="controllers"><file name="DashboardReviewsController.php" hash="50279809ea5f8f4d3a562be717e13010"/></dir><dir name="etc"><file name="config.xml" hash="05eb3c96692aa58428bf10c86f41a691"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clockworkgeek_DashboardReviews.xml" hash="8eb4821e4a9c5fc84cd9cd8f7bcac622"/></dir></target></contents>
+    <date>2010-06-11</date>
+    <time>12:29:43</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="dashboardreviews.xml" hash="b967cebe14913211d0261fe076909fbd"/></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Clockworkgeek"><dir name="DashboardReviews"><dir name="Block"><file name="Grid.php" hash="c54f2fde1e446141320b93a7c3500795"/><file name="Tab.php" hash="46a11ff49eb35366693c8f5a61e567e9"/></dir><dir name="controllers"><file name="DashboardReviewsController.php" hash="9cf44f7081c04bbfb94914c8416e7213"/></dir><dir name="etc"><file name="config.xml" hash="05eb3c96692aa58428bf10c86f41a691"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clockworkgeek_DashboardReviews.xml" hash="8eb4821e4a9c5fc84cd9cd8f7bcac622"/></dir></target></contents>
     <compatible/>
     <dependencies/>
 </package>

@@ -15,8 +15,6 @@
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-require_once 'Mage/Adminhtml/Controller/Action.php';
-
 class Clockworkgeek_DashboardReviews_DashboardReviewsController extends Mage_Adminhtml_Controller_Action
 {
 
