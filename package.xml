@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Clockworkgeek_DashboardReviews</name>
-    <version>1.0.7</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
     <license>OSL-3.0</license>
     <channel>community</channel>
     <extends/>
     <summary>Show the newest, pending product reviews on the admin dashboard.</summary>
     <description/>
-    <notes>Dashboard tab hides if "Pending Reviews" permission is missing</notes>
+    <notes>Show review count in tab title</notes>
     <authors><author><name>Daniel Deady</name><user>daniel</user><email>daniel@clockworkgeek.com</email></author></authors>
     <date>2015-03-26</date>
-    <time>18:56:59</time>
-    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="dashboardreviews.xml" hash="b967cebe14913211d0261fe076909fbd"/></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Clockworkgeek"><dir name="DashboardReviews"><dir name="Block"><file name="Grid.php" hash="ee29c0c7194451628a041e32cac7b83f"/><file name="Tab.php" hash="47e14ada6cf69c4ba7f8ce53436f89a7"/></dir><dir name="controllers"><file name="DashboardReviewsController.php" hash="226a45801594297151f681fe246839f3"/></dir><dir name="etc"><file name="config.xml" hash="e181073f1f400bb6c5a590989d0cee82"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clockworkgeek_DashboardReviews.xml" hash="8eb4821e4a9c5fc84cd9cd8f7bcac622"/></dir></target></contents>
+    <time>20:05:48</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="dashboardreviews.xml" hash="b967cebe14913211d0261fe076909fbd"/></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Clockworkgeek"><dir name="DashboardReviews"><dir name="Block"><file name="Grid.php" hash="f652abe75dd0a800a4fd908040c92268"/><file name="Tab.php" hash="fbc52bdf73a46040d51548e8d380b12c"/></dir><dir name="Model"><dir name="Resource"><dir name="Review"><dir name="Pending"><file name="Collection.php" hash="3910888856efd01d13e9970fd45bfb7c"/></dir></dir></dir></dir><dir name="controllers"><file name="DashboardReviewsController.php" hash="226a45801594297151f681fe246839f3"/></dir><dir name="etc"><file name="config.xml" hash="37a104cf0834f509dac51fa707a56bc9"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clockworkgeek_DashboardReviews.xml" hash="8eb4821e4a9c5fc84cd9cd8f7bcac622"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
