@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Clockworkgeek_DashboardReviews",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Show the newest, pending product reviews on the admin dashboard.",
+    "authors": [
+    {
+        "name": "Clockworkgeek",
+        "email": "daniel@clockworkgeek.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
