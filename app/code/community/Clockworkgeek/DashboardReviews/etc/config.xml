@@ -19,7 +19,7 @@
 <config>
 	<modules>
 		<Clockworkgeek_DashboardReviews>
-			<version>1.0.5</version>
+			<version>1.0.6</version>
 		</Clockworkgeek_DashboardReviews>
 	</modules>
 	<global>
@@ -34,7 +34,7 @@
 			<adminhtml>
 				<args>
 					<modules>
-						<dashboardreviews>Clockworkgeek_DashboardReviews</dashboardreviews>
+						<dashboardreviews before="Mage_Adminhtml">Clockworkgeek_DashboardReviews</dashboardreviews>
 					</modules>
 				</args>
 			</adminhtml>

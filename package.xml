@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Clockworkgeek_DashboardReviews</name>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
     <extends/>
     <summary>Show the newest, pending product reviews on the admin dashboard.</summary>
     <description>This extension allows you to quickly see if any reviews are waiting to be approved without navigating the menus.</description>
-    <notes>Repackaged for 1.5-1.7.</notes>
+    <notes>Possible fix for AJAX 404 (apparently no results when tab is clicked).</notes>
     <authors><author><name>Clockworkgeek</name><user>nonproffessional</user><email>nonproffessional@clockworkgeek.com</email></author></authors>
-    <date>2012-12-29</date>
-    <time>22:25:44</time>
-    <contents><target name="magecommunity"><dir name="Clockworkgeek"><dir name="DashboardReviews"><dir name="Block"><file name="Grid.php" hash="c54f2fde1e446141320b93a7c3500795"/><file name="Tab.php" hash="46a11ff49eb35366693c8f5a61e567e9"/></dir><dir name="controllers"><file name="DashboardReviewsController.php" hash="9cf44f7081c04bbfb94914c8416e7213"/></dir><dir name="etc"><file name="config.xml" hash="c6a6af577779727367f2b772f6eca940"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="dashboardreviews.xml" hash="b967cebe14913211d0261fe076909fbd"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clockworkgeek_DashboardReviews.xml" hash="8eb4821e4a9c5fc84cd9cd8f7bcac622"/></dir></target></contents>
+    <date>2013-06-16</date>
+    <time>18:02:30</time>
+    <contents><target name="magecommunity"><dir name="Clockworkgeek"><dir name="DashboardReviews"><dir name="Block"><file name="Grid.php" hash="c54f2fde1e446141320b93a7c3500795"/><file name="Tab.php" hash="46a11ff49eb35366693c8f5a61e567e9"/></dir><dir name="controllers"><file name="DashboardReviewsController.php" hash="9cf44f7081c04bbfb94914c8416e7213"/></dir><dir name="etc"><file name="config.xml" hash="54f52a48d23a645e828ee900251992e4"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="dashboardreviews.xml" hash="b967cebe14913211d0261fe076909fbd"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clockworkgeek_DashboardReviews.xml" hash="8eb4821e4a9c5fc84cd9cd8f7bcac622"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
