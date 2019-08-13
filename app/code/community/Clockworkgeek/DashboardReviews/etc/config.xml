@@ -19,7 +19,7 @@
 <config>
 	<modules>
 		<Clockworkgeek_DashboardReviews>
-			<version>1.0.0</version>
+			<version>1.0.5</version>
 		</Clockworkgeek_DashboardReviews>
 	</modules>
 	<global>
