@@ -1,13 +1,13 @@
 {
     "name": "OpenMageModuleFostering/Clockworkgeek_DashboardReviews",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Show the newest, pending product reviews on the admin dashboard.",
     "authors": [
     {
-        "name": "Clockworkgeek",
-        "email": "nonproffessional@clockworkgeek.com"
+        "name": "Daniel Deady",
+        "email": "daniel@clockworkgeek.com"
     }
 ],
     "suggest": {
